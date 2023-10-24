@@ -1,0 +1,28 @@
+.slider-wrapper {
+	position: relative;
+	display: flex;
+	min-height: 200px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.slider-item {
+	display: none;
+}
+.slider-item.active {
+	display: block;
+}
+#prev {
+	position: absolute;
+	left: 39%;
+	top: 0;
+	height: 100%;
+	width: 6px;
+}
+#next {
+	position: absolute;
+	right: 39%;
+	top: 0;
+	height: 100%;
+	width: 6px;
+}
